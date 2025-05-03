@@ -5,7 +5,7 @@ import requests
 BASE_URL = "http://localhost:8000"
 
 # Page config
-st.set_page_config(page_title="NCERT Mentor AI", layout="centered")
+st.set_page_config(page_title="SHIKSHA AI Mentor", layout="centered")
 
 # Session state
 if "logged_in" not in st.session_state:
